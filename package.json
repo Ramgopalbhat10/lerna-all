@@ -5,7 +5,8 @@
   "scripts": {
     "start:react:dev": "lerna exec --scope @mrgb/learn-react -- yarn dev",
     "start:vue:dev": "lerna exec --scope @mrgb/learn-vue -- yarn dev",
-    "start:svelte:dev": "lerna exec --scope @mrgb/learn-svelte -- yarn dev"
+    "start:svelte:dev": "lerna exec --scope @mrgb/learn-svelte -- yarn dev",
+    "start:angular:dev": "lerna exec --scope @mrgb/learn-angular -- yarn start"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
